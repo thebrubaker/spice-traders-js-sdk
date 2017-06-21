@@ -1,0 +1,25 @@
+{
+  "name": "spice-traders-js-sdk",
+  "version": "1.0.0",
+  "description": "The spice traders javascript sdk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebrubaker/spice-traders-js-sdk.git"
+  },
+  "author": "Joel Brubaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebrubaker/spice-traders-js-sdk/issues"
+  },
+  "homepage": "https://github.com/thebrubaker/spice-traders-js-sdk#readme",
+  "dependencies": {
+    "faker-factory": "^1.0.0",
+    "firebase-model": "^0.1.1",
+    "mocha": "^3.4.2",
+    "sinon": "^2.3.5"
+  }
+}
