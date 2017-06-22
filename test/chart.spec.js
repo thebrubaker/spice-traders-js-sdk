@@ -22,9 +22,11 @@ describe('Node', function() {
         y: 0
       }
     }).then(node => {
+      console.log(node.getAttributes())
       assert(node.name === 'Earth')
       done()
     }).catch(error => {
+      console.log(error)
       done()
     })
   })
