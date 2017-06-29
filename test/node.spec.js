@@ -24,6 +24,7 @@ describe('Node', function() {
       }
     }).then(node => {
       assert(node.name === 'Earth')
+      assert(node.key !== undefined)
       done()
     }).catch(error => {
       done(error)
